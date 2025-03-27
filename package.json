@@ -1,0 +1,19 @@
+{
+  "name": "advanced-isolated-vm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-sagemaker-runtime": "^3.758.0",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "isolated-vm": "^5.0.4",
+  }
+}
